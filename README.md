@@ -1,6 +1,6 @@
 # From weather forecasts to power: day-ahead wind and solar generation in Germany (v0.3)
 
-[![tests](https://github.com/michaelserikov/de-weather-to-power/actions/workflows/tests.yml/badge.svg)](https://github.com/michaelserikov/de-weather-to-power/actions/workflows/tests.yml)
+[![tests](https://github.com/serikov-power-markets/de-weather-to-power/actions/workflows/tests.yml/badge.svg)](https://github.com/serikov-power-markets/de-weather-to-power/actions/workflows/tests.yml)
 
 How well can German wind and solar generation for tomorrow be forecast from public weather forecasts, and does such a forecast add anything to the forecast the transmission system operators (TSOs) publish? This project turns day-ahead numerical weather predictions (DWD ICON and ECMWF IFS, issued about 24 hours before the valid hour) at 52 points into hourly forecasts of onshore wind, offshore wind and solar generation, evaluates them out of sample over 22 months (December 2024 to September 2026, 16,054 hours) and compares and combines them with the TSO day-ahead forecast. Version 0.2 prices the forecast errors at the German imbalance price (reBAP): what each forecast would cost a wind or solar portfolio that sells its forecast day-ahead and settles the difference as imbalance. Version 0.3 adds ECMWF's machine-learning weather model AIFS as an input and compares it with the physics-based IFS and ICON.
 

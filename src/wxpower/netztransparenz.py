@@ -26,7 +26,7 @@ BASE = "https://ds.netztransparenz.de/api/v1/data"
 PATHS = {"rebap": "NrvSaldo/reBAP/Qualitaetsgesichert", "idaep": "IdAep"}
 
 _session = requests.Session()
-_session.headers["User-Agent"] = "de-weather-to-power (research; github.com/michaelserikov/de-weather-to-power)"
+_session.headers["User-Agent"] = "de-weather-to-power (research; github.com/serikov-power-markets/de-weather-to-power)"
 _token: dict = {}
 
 

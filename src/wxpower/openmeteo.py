@@ -30,7 +30,7 @@ ENDPOINTS = {
 }
 
 _session = requests.Session()
-_session.headers["User-Agent"] = "de-weather-to-power (research; github.com/michaelserikov/de-weather-to-power)"
+_session.headers["User-Agent"] = "de-weather-to-power (research; github.com/serikov-power-markets/de-weather-to-power)"
 
 
 def _get(url: str, params: dict, retries: int = 6) -> dict:
